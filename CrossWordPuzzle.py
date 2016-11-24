@@ -29,7 +29,7 @@ con = lite.connect('C:\Python31\DB\excel.db')
 #con = lite.connect('C:\Python31\Tashbets_Project\excel.db')
 
 class Application(Frame):
-    # search for any word that match e.g seraching moon will retrieve moonlight
+    # search for any word that match e.g seraching moon will retrieve moonlight1
     def Find_wordByNum(self,event):
      self.DB_list=[]
      content=self.word_ent1.get()
